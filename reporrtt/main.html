@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NGO Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>MUSKAAN FOUNDATION❤️</h1>
+            <ul class="nav-left">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <ul class="nav-right">
+                <!-- Updated links for Login and Sign Up -->
+                <li><a href="login.html" class="btn login">Login</a></li>
+                <li><a href="signup.html" class="btn signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Make a Difference</h2>
+        <h1>Your donation can change lives.</h1>
+        <a href="#donate" class="btn">Donate Now</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At MUSKAAN FOUNDATION❤️, we are dedicated to empowering the lives of underprivileged children by providing them with the opportunities and resources they need to build a brighter future. Our mission is to ensure that every child, regardless of their background, has access to quality education, healthcare, and a nurturing environment that fosters their holistic development. We believe in the potential of every child and work tirelessly to unlock that potential through various educational programs, extracurricular activities, and community support initiatives. Through our efforts, we aim to create a world where every child can dream, grow, and thrive, turning their aspirations into reality. Together, we can make a difference—one child at a time.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <h3>1. Project "ज्ञान दीप" (Gyaan Deep) – Illuminating Education</h3>
+            <p>In 2023, MUSKAAN FOUNDATION❤️ launched Project Gyaan Deep, an initiative aimed at bringing education to underprivileged children in rural areas. The project set up mobile learning centers, equipped with books, tablets, and educational tools, in remote villages where access to formal education was limited. Through these centers, children from marginalized communities received lessons in reading, writing, math, and science, along with basic computer skills. Local volunteers and teachers were recruited to ensure continuous learning, and periodic workshops were held to engage children in creative activities like painting, storytelling, and games. Over 500 children benefitted from this project, and many of them are now on track to enroll in formal schools.</p>
+        </div>
+        <div class="project">
+            <h3>2. Project "स्वास्थ्य से सुरक्षा" (Swasthya Se Suraksha) – Health for Safety</h3>
+            <p>In 2022, MUSKAAN FOUNDATION❤️ introduced Project Swasthya Se Suraksha, focusing on improving the health and well-being of children in slum areas. Recognizing the lack of access to basic healthcare, the project organized monthly health camps, providing free medical check-ups, vaccinations, and nutritional supplements for children aged 5-12. Along with healthcare services, workshops on hygiene, nutrition, and disease prevention were conducted for both children and their families. By the end of the project, over 1,000 children had received medical care, and the community saw a significant improvement in overall child health and awareness of hygiene practices.</p>
+        </div>
+    </section>
+
+    <section id="donate">
+        <h2>Donate Now</h2>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_ID">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+        
+            <button type="submit">Donate via PayPal</button>
+        </form>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@muskaanfoudation.org</p>
+        <p>Phone: +91 898977676</p>
+    </section>
+
+    <footer>
+        <p>&copy; MUSKAAN FOUNDATION❤️. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

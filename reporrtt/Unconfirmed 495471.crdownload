@@ -1,0 +1,7 @@
+document.querySelector("form").addEventListener("submit", function(event) {
+    const amount = document.querySelector("#amount").value;
+    if (amount <= 0) {
+        alert("Please enter a valid donation amount.");
+        event.preventDefault(); // Stop form submission
+    }
+});
